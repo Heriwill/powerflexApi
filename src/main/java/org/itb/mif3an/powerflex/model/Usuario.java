@@ -20,6 +20,7 @@ public class Usuario {
     private String email;
     @Column(nullable = false, length = 250)
     private String password;
+
     @Column(nullable = false)
     private boolean codStatus;
 
